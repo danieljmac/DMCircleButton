@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651C459D1A54961A00BA5E56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C459C1A54961A00BA5E56 /* main.m */; };
+		651C45A01A54961A00BA5E56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C459F1A54961A00BA5E56 /* AppDelegate.m */; };
+		651C45A31A54961A00BA5E56 /* DMCircleButtonExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 651C45A11A54961A00BA5E56 /* DMCircleButtonExample.xcdatamodeld */; };
+		651C45A61A54961A00BA5E56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C45A51A54961A00BA5E56 /* ViewController.m */; };
+		651C45A91A54961A00BA5E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651C45A71A54961A00BA5E56 /* Main.storyboard */; };
+		651C45AB1A54961A00BA5E56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651C45AA1A54961A00BA5E56 /* Images.xcassets */; };
+		651C45AE1A54961A00BA5E56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651C45AC1A54961A00BA5E56 /* LaunchScreen.xib */; };
+		651C45BA1A54961B00BA5E56 /* DMCircleButtonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C45B91A54961B00BA5E56 /* DMCircleButtonExampleTests.m */; };
+		651C45C61A54962A00BA5E56 /* DMCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C45C51A54962A00BA5E56 /* DMCircleButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		651C45B41A54961B00BA5E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651C458F1A54961A00BA5E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651C45961A54961A00BA5E56;
+			remoteInfo = DMCircleButtonExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		651C45971A54961A00BA5E56 /* DMCircleButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMCircleButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C459B1A54961A00BA5E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651C459C1A54961A00BA5E56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		651C459E1A54961A00BA5E56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		651C459F1A54961A00BA5E56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		651C45A21A54961A00BA5E56 /* DMCircleButtonExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DMCircleButtonExample.xcdatamodel; sourceTree = "<group>"; };
+		651C45A41A54961A00BA5E56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		651C45A51A54961A00BA5E56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		651C45A81A54961A00BA5E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		651C45AA1A54961A00BA5E56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		651C45AD1A54961A00BA5E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		651C45B31A54961B00BA5E56 /* DMCircleButtonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMCircleButtonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C45B81A54961B00BA5E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651C45B91A54961B00BA5E56 /* DMCircleButtonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCircleButtonExampleTests.m; sourceTree = "<group>"; };
+		651C45C41A54962A00BA5E56 /* DMCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCircleButton.h; sourceTree = "<group>"; };
+		651C45C51A54962A00BA5E56 /* DMCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCircleButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		651C45941A54961A00BA5E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C45B01A54961B00BA5E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		651C458E1A54961A00BA5E56 = {
+			isa = PBXGroup;
+			children = (
+				651C45991A54961A00BA5E56 /* DMCircleButtonExample */,
+				651C45B61A54961B00BA5E56 /* DMCircleButtonExampleTests */,
+				651C45981A54961A00BA5E56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		651C45981A54961A00BA5E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				651C45971A54961A00BA5E56 /* DMCircleButtonExample.app */,
+				651C45B31A54961B00BA5E56 /* DMCircleButtonExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		651C45991A54961A00BA5E56 /* DMCircleButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				651C45C31A54962A00BA5E56 /* DMCircleButton */,
+				651C459E1A54961A00BA5E56 /* AppDelegate.h */,
+				651C459F1A54961A00BA5E56 /* AppDelegate.m */,
+				651C45A41A54961A00BA5E56 /* ViewController.h */,
+				651C45A51A54961A00BA5E56 /* ViewController.m */,
+				651C45A71A54961A00BA5E56 /* Main.storyboard */,
+				651C45AA1A54961A00BA5E56 /* Images.xcassets */,
+				651C45AC1A54961A00BA5E56 /* LaunchScreen.xib */,
+				651C45A11A54961A00BA5E56 /* DMCircleButtonExample.xcdatamodeld */,
+				651C459A1A54961A00BA5E56 /* Supporting Files */,
+			);
+			path = DMCircleButtonExample;
+			sourceTree = "<group>";
+		};
+		651C459A1A54961A00BA5E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				651C459B1A54961A00BA5E56 /* Info.plist */,
+				651C459C1A54961A00BA5E56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		651C45B61A54961B00BA5E56 /* DMCircleButtonExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				651C45B91A54961B00BA5E56 /* DMCircleButtonExampleTests.m */,
+				651C45B71A54961B00BA5E56 /* Supporting Files */,
+			);
+			path = DMCircleButtonExampleTests;
+			sourceTree = "<group>";
+		};
+		651C45B71A54961B00BA5E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				651C45B81A54961B00BA5E56 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		651C45C31A54962A00BA5E56 /* DMCircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				651C45C41A54962A00BA5E56 /* DMCircleButton.h */,
+				651C45C51A54962A00BA5E56 /* DMCircleButton.m */,
+			);
+			path = DMCircleButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		651C45961A54961A00BA5E56 /* DMCircleButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C45BD1A54961B00BA5E56 /* Build configuration list for PBXNativeTarget "DMCircleButtonExample" */;
+			buildPhases = (
+				651C45931A54961A00BA5E56 /* Sources */,
+				651C45941A54961A00BA5E56 /* Frameworks */,
+				651C45951A54961A00BA5E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMCircleButtonExample;
+			productName = DMCircleButtonExample;
+			productReference = 651C45971A54961A00BA5E56 /* DMCircleButtonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		651C45B21A54961B00BA5E56 /* DMCircleButtonExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C45C01A54961B00BA5E56 /* Build configuration list for PBXNativeTarget "DMCircleButtonExampleTests" */;
+			buildPhases = (
+				651C45AF1A54961B00BA5E56 /* Sources */,
+				651C45B01A54961B00BA5E56 /* Frameworks */,
+				651C45B11A54961B00BA5E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651C45B51A54961B00BA5E56 /* PBXTargetDependency */,
+			);
+			name = DMCircleButtonExampleTests;
+			productName = DMCircleButtonExampleTests;
+			productReference = 651C45B31A54961B00BA5E56 /* DMCircleButtonExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		651C458F1A54961A00BA5E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Daniel McCarthy";
+				TargetAttributes = {
+					651C45961A54961A00BA5E56 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					651C45B21A54961B00BA5E56 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 651C45961A54961A00BA5E56;
+					};
+				};
+			};
+			buildConfigurationList = 651C45921A54961A00BA5E56 /* Build configuration list for PBXProject "DMCircleButtonExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 651C458E1A54961A00BA5E56;
+			productRefGroup = 651C45981A54961A00BA5E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				651C45961A54961A00BA5E56 /* DMCircleButtonExample */,
+				651C45B21A54961B00BA5E56 /* DMCircleButtonExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		651C45951A54961A00BA5E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C45A91A54961A00BA5E56 /* Main.storyboard in Resources */,
+				651C45AE1A54961A00BA5E56 /* LaunchScreen.xib in Resources */,
+				651C45AB1A54961A00BA5E56 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C45B11A54961B00BA5E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		651C45931A54961A00BA5E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C45A01A54961A00BA5E56 /* AppDelegate.m in Sources */,
+				651C459D1A54961A00BA5E56 /* main.m in Sources */,
+				651C45A61A54961A00BA5E56 /* ViewController.m in Sources */,
+				651C45C61A54962A00BA5E56 /* DMCircleButton.m in Sources */,
+				651C45A31A54961A00BA5E56 /* DMCircleButtonExample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C45AF1A54961B00BA5E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C45BA1A54961B00BA5E56 /* DMCircleButtonExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		651C45B51A54961B00BA5E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651C45961A54961A00BA5E56 /* DMCircleButtonExample */;
+			targetProxy = 651C45B41A54961B00BA5E56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		651C45A71A54961A00BA5E56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651C45A81A54961A00BA5E56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		651C45AC1A54961A00BA5E56 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651C45AD1A54961A00BA5E56 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		651C45BB1A54961B00BA5E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		651C45BC1A54961B00BA5E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		651C45BE1A54961B00BA5E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMCircleButtonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		651C45BF1A54961B00BA5E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMCircleButtonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		651C45C11A54961B00BA5E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMCircleButtonExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMCircleButtonExample.app/DMCircleButtonExample";
+			};
+			name = Debug;
+		};
+		651C45C21A54961B00BA5E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMCircleButtonExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMCircleButtonExample.app/DMCircleButtonExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		651C45921A54961A00BA5E56 /* Build configuration list for PBXProject "DMCircleButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C45BB1A54961B00BA5E56 /* Debug */,
+				651C45BC1A54961B00BA5E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651C45BD1A54961B00BA5E56 /* Build configuration list for PBXNativeTarget "DMCircleButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C45BE1A54961B00BA5E56 /* Debug */,
+				651C45BF1A54961B00BA5E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		651C45C01A54961B00BA5E56 /* Build configuration list for PBXNativeTarget "DMCircleButtonExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C45C11A54961B00BA5E56 /* Debug */,
+				651C45C21A54961B00BA5E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		651C45A11A54961A00BA5E56 /* DMCircleButtonExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				651C45A21A54961A00BA5E56 /* DMCircleButtonExample.xcdatamodel */,
+			);
+			currentVersion = 651C45A21A54961A00BA5E56 /* DMCircleButtonExample.xcdatamodel */;
+			path = DMCircleButtonExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 651C458F1A54961A00BA5E56 /* Project object */;
+}
